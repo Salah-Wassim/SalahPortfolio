@@ -47,9 +47,11 @@ table {
 html,body{height:100%;}
 body{min-height:100%; position:relative;}
 
+/*HEADER*/
+header > nav > a{list-style:none; text-decoration:none; text-transform:none;
+color:#000}
 
-
-
+/*FOOTER*/
 footer{
     display:flex;
     justify-content:center; 

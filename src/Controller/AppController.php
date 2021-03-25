@@ -23,4 +23,9 @@ class AppController extends AbstractController
     {
         return $this->render('app/projects.html.twig');
     }
+    #[Route('/contact', name: 'Contact')]
+    public function contact(): Response
+    {
+        return $this->render('app/contact.html.twig');
+    }
 }

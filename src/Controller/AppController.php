@@ -28,4 +28,9 @@ class AppController extends AbstractController
     {
         return $this->render('app/contact.html.twig');
     }
+    #[Route('/cgu', name: 'CGU')]
+    public function cgu(): Response
+    {
+        return $this->render('app/cgu.html.twig');
+    }
 }

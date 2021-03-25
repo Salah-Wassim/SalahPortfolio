@@ -1,0 +1,8 @@
+/*RESET CSS*/
+body{margin:0;}
+p,h1,h2,h3{padding:8px;}
+a{color:#000; list-style:none; text-decoration:none;}
+
+/*GLOBAL*/
+html,body{height:100%;}
+body{min-height:100%; position:relative;}

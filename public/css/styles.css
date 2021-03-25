@@ -1,10 +1,10 @@
 /*RESET CSS*/
 body{margin:0}
-p,a,h1,h2{padding:8px}
+p,a,h1,h2{padding:8px; color:#FFF}
 
 /*GLOBAL*/
 html,body{height:100%;}
-body{min-height:100%; position:relative;}
+body{min-height:100%; position:relative; background-color:#2E2E2E;}
 
 /*HEADER*/
 header > nav > a{display:none;list-style:none; text-decoration:none; text-transform:none;
@@ -19,5 +19,6 @@ footer{
     display:flex;
     justify-content:center; 
     align-items:center;
-    border:solid 1px #000;
+    border:solid 1px #FFF;
 }
+footer > p{font-size:10px;}

@@ -3,6 +3,10 @@ body{margin:0}
 p,a,h1,h2{padding:8px; color:#FFF}
 
 /*GLOBAL*/
+* {
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
 html,body{height:100%;}
 body{min-height:100%; position:relative; background-color:#2E2E2E;}
 
@@ -18,6 +22,16 @@ header > nav > a{
 /*INDEX*/
 .presentation > h1{margin-bottom:0;}
 .presentation > p{margin-top:0}
+
+/*CAROUSEL*/
+.gallery-cell{
+    width:66%;
+    height:100px;
+    border:solid 2px #FFF;
+    background-color:aquamarine;
+    scroll-snap-align:start;
+    margin-right:10px;
+}
 
 /*FOOTER*/
 footer{

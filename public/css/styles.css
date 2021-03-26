@@ -7,8 +7,13 @@ html,body{height:100%;}
 body{min-height:100%; position:relative; background-color:#2E2E2E;}
 
 /*HEADER*/
-header > nav > a{display:none;list-style:none; text-decoration:none; text-transform:none;
-color:#000}
+header > nav > a{
+    display:none;
+    list-style:none;
+    text-decoration:none;
+    text-transform:none;
+    color:#000
+}
 
 /*INDEX*/
 .presentation > h1{margin-bottom:0;}
@@ -20,5 +25,6 @@ footer{
     justify-content:center; 
     align-items:center;
     border:solid 1px #FFF;
+    background-color:#000;
 }
 footer > p{font-size:10px;}

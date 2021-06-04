@@ -23,6 +23,11 @@ class AppController extends AbstractController
     {
         return $this->render('app/projects.html.twig');
     }
+    #[Route('/view-project/{id}', name: 'viewProject')]
+    public function viewProject(): Response
+    {
+        return $this->render('app/projects.html.twig');
+    }
     #[Route('/contact', name: 'Contact')]
     public function contact(): Response
     {

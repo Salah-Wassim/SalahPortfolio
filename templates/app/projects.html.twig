@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Projects --{{parent()}}{% endblock %}
+
+{% block body %}
+    <!-- Caroussel -->
+    <article class="gallery js-flickity">
+        <h2 class="gallery-title">My last projects</h2>
+        <div class="gallery-cell">
+            <a class="link-img-gallery-cell" href="{{path('Contact')}}">
+                <img src="{{asset('images/panier.jpg')}}" alt="Panier">
+            </a>
+        </div>
+        <div class="gallery-cell">
+            <a class="link-img-gallery-cell" href="#">
+                <img src="" alt="">
+            </a>
+        </div>
+        <div class="gallery-cell">
+            <a class="link-img-gallery-cell" href="#">
+                <img src="" alt="">
+            </a>
+        </div>
+        <div class="gallery-cell">
+            <a class="link-img-gallery-cell" href="#">
+                <img src="" alt="">
+            </a>
+        </div>
+        <div class="gallery-cell">
+            <a class="link-img-gallery-cell" href="#">
+                <img src="" alt="">
+            </a>
+        </div>
+    </article>
+{% endblock %}

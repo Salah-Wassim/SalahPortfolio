@@ -13,11 +13,11 @@ class AppController extends AbstractController
     {
         return $this->render('app/index.html.twig');
     }
-    #[Route('/about-me', name: 'About')]
-    public function about(): Response
-    {
-        return $this->render('app/about.html.twig');
-    }
+    //#[Route('/about-me', name: 'About')]
+    //public function about(): Response
+    //{
+    //    return $this->render('app/about.html.twig');
+    //}
     #[Route('/projects', name: 'Projects')]
     public function project(): Response
     {

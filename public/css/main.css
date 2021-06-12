@@ -1,0 +1,11 @@
+ /*MAIN*/
+ main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width:100%;
+    min-height:100% !important;
+    margin:0 auto;
+    position:relative;
+    /*padding-top:calc((651.2px - 106.4px) / 2);*/
+}

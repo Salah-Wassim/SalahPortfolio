@@ -1,0 +1,19 @@
+/*HOME*/
+.presentation{
+    padding-left:calc((100% - 260.58px) / 2);
+}
+.presentation-contain{font-size:9px;}
+.presentation-job {
+    margin-left:170px;
+}
+.presentation-chevron{
+    color:#FFF;
+}
+.presentation > h1, .presentation > p, .presentation-job > p{
+    margin:0;
+}
+.presentation-job, .presentation{
+    display:inline-block;
+}
+#p1{text-align:center;}
+#h1{font-size:40px;}

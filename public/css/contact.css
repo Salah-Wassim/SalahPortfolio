@@ -1,16 +1,73 @@
 /*global bloc contact*/
-
+ul{margin:0;}
 li {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
     list-style: none;
+}
+ul{padding:0;}
+h1, h2, h3{margin:0}
+h3{
+    display:inline-block;
+    color:#FFF;
+    margin-bottom:0;
+}
+p{
+    text-align:center;
+    margin:0;
+}
+label{
+    width:100%;
+    color:#FFF;
+    text-align:left;
+}
+input{
+    color:#FFF;
+    background:none;
+    border:none;
+    border-bottom:solid 2px #FFF;
+    margin-bottom:20px;
+    box-shadow:none;
+}
+.section-contact-info-t, .section-contact-form-t{
+    margin:0 25%;
+}
+.section-contact-info-c, .section-contact-form-c{
+    display:flex;
+    justify-content:space-around;
 }
 
 /*main bloc contact*/
 
 
-
 /*bloc contact*/
 
+.section-contact-info-t{
+    
+}
+.section-contact-info-c{
 
-
+}
+.list-contact-info-c{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.list-contact-main-title{
+    margin-bottom:25px;
+}
+#list-contact-p-presentation{
+    margin-bottom:30px;
+}
+.list-contact-info-h3-p{
+    margin-bottom:10px;
+}
 
 /*bloc contact form*/
+
+.section-contact-form-t{}
+
+#submit{background: #FFF;color:#000;}

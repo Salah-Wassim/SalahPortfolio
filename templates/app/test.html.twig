@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Test --{{parent()}}{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+        <div class="cards">
+            <label class="card" for="item-1" id="song-1">
+                <img class="card-img" src="{{asset('images/panier.jpg')}}" alt="song">
+            </label>
+            <label class="card" for="item-2" id="song-2">
+                <img class="card-img" src="{{asset('images/panier.jpg')}}" alt="song">
+            </label>
+            <label class="card" for="item-3" id="song-3">
+                <img class="card-img" src="{{asset('images/panier.jpg')}}" alt="song">
+            </label>
+        </div>
+        <div class="player">
+            <div class="upper-part">
+                <div class="info-area" id="test">
+                    <label class="song-info" id="song-info-1">
+                        <div class="title">project1</div>
+                        <div class="sub-line">
+                            <div class="subtitle">Balthazar</div>
+                        </div>
+                    </label>
+                    <label class="song-info" id="song-info-2">
+                        <div class="title">Project2</div>
+                        <div class="sub-line">
+                            <div class="subtitle">Moderator</div>
+                        </div>
+                    </label>
+                    <label class="song-info" id="song-info-3">
+                        <div class="title">project3</div>
+                        <div class="sub-line">
+                            <div class="subtitle">Otzeki</div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

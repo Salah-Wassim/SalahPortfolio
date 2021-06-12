@@ -13,11 +13,6 @@ class AppController extends AbstractController
     {
         return $this->render('app/index.html.twig');
     }
-    //#[Route('/about-me', name: 'About')]
-    //public function about(): Response
-    //{
-    //    return $this->render('app/about.html.twig');
-    //}
     #[Route('/projects', name: 'Projects')]
     public function project(): Response
     {
@@ -37,5 +32,10 @@ class AppController extends AbstractController
     public function cgu(): Response
     {
         return $this->render('app/cgu.html.twig');
+    }
+    #[Route('/test', name: 'Test')]
+    public function test(): Response
+    {
+        return $this->render('app/test.html.twig');
     }
 }

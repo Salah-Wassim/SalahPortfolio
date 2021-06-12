@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/caroussel.css') }}">
         <link rel="stylesheet" href="{{ asset('css/flickity.css') }}" media="screen">
         <title>{% block title %}SalahPortfolio{% endblock %}</title>
         {# Run `composer require symfony/webpack-encore-bundle`
@@ -16,11 +18,19 @@
         {% block javascripts %}
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script src="js/flickity.pkgd.js"></script>
+            <script src="js/caroussel.js"></script>
         {% endblock %}
     </head>
     <body>
         {{ include('app/_header.html.twig') }}
         <main>
+            <nav class="main-menu">
+                <div class="menu-c">
+                    <a class="link link-home" href="">Home</a>
+                    <a class="link link-projects" href="">Projects</a>
+                    <a class="link link-contact" href="{{path('Contact')}}">Contact</a>
+                </div>
+            </nav>
             {% block body %}{% endblock %}
         </main>
         {{ include('app/_footer.html.twig') }}

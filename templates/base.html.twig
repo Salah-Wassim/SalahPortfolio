@@ -32,7 +32,7 @@
             <nav class="main-menu">
                 <div class="menu-t">
                     <div class="menu-c">
-                        <a class="link link-home" href="">Home</a>
+                        <a class="link link-home" href="{{path('Home')}}">Home</a>
                         <a class="link link-projects" href="">Projects</a>
                         <a class="link link-contact" href="{{path('Contact')}}">Contact</a>
                         <div class="menu-link-sn-t">
@@ -47,5 +47,6 @@
             {% block body %}{% endblock %}
         </main>
         {{ include('app/_footer.html.twig') }}
+        <script src="js/burger.js"></script>
     </body>
 </html>
